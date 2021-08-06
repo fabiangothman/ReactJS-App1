@@ -1,0 +1,16 @@
+#sidebar{
+    margin:0px 0px;
+}
+#sidebar .sidebar-item{
+    background-color: rgba(0, 0, 0, 0.1);
+    margin:5px 0px;
+}
+#sidebar .sidebar-item .link{
+    color: #a7b1b5;
+    text-decoration: none;
+}
+
+#sidebar .access-disabled{
+    cursor: not-allowed;
+    background-color: rgba(128, 128, 128, 0.7);
+}

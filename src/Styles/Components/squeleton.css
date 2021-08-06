@@ -1,0 +1,25 @@
+.squeleton-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.navbar-container{
+    margin:0;
+}
+.above-container{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+}
+    .sidebar-container{
+        background-color: #233c46;
+        padding: 0px 0px;
+        overflow-y: auto;
+    }
+    .page-container{
+        padding: 5px 5px;
+        flex: 1;
+        overflow-y: auto;
+    }

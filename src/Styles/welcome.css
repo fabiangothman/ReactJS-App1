@@ -1,0 +1,229 @@
+#welcomeContainer{
+    background-color: white;
+    background-size: 100% 700px;
+    /*background-image: url('../../public/welcome/bgreg.dd8d8a92.png');*/
+    background-repeat: no-repeat;
+}
+
+#welcomeContainer .header-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+    align-items: center;
+}
+    #welcomeContainer .logo-container{
+        flex:1;
+    }
+    #welcomeContainer .menu-container{
+        margin:0;
+    }
+    #welcomeContainer .menu-items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #welcomeContainer .menu-items .item{
+        margin: 0px 10px;
+    }
+    #welcomeContainer .menu-items .item a{
+        color: white;
+        text-decoration: none;
+    }
+
+#welcomeContainer .body-container{
+    margin-top: 100px;
+}
+    #welcomeContainer .boxes-container{
+        margin:0px 0px;
+        
+    }
+    #welcomeContainer .col{
+        margin:0px 0px;
+    }
+    #welcomeContainer .col-left{
+        flex: 6;
+    }
+    #welcomeContainer .col-right{
+        flex: 4;
+    }
+        #welcomeContainer .box-container{
+            display: flex;
+            flex-direction: row;
+            padding: 50px 20px 50px 50px;
+        }
+        #welcomeContainer .description-box{
+            background-color: transparent;
+            padding-bottom: 200px;
+        }
+            #welcomeContainer .description-box .title-text{
+                font-weight: 400;
+                color: white;
+                font-size: 40px;
+            }
+            #welcomeContainer .description-box .description-text{
+                font-weight: 400;
+                color: white;
+                font-size: 21px;
+                line-height: 22px;
+            }
+        #welcomeContainer .features-box{
+            background-color: rgba(255, 255, 255, 1);
+        }
+            #welcomeContainer .features-box .title-text{
+                font-weight: 400;
+                color: #333;
+                font-size: 40px;
+            }
+            #welcomeContainer .features-box .description-text{
+                font-weight: 400;
+                color: grey;
+                font-size: 21px;
+                line-height: 22px;
+            }
+            #welcomeContainer .cards-container{
+                text-align: center;
+            }
+                #welcomeContainer .cards-container .card{
+                    display: inline-block;
+                    border-radius: 30px;
+                    padding: 30px 30px;
+                    width: 200px;
+                    vertical-align: middle;
+                    margin:30px;
+                    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+                }
+                    #welcomeContainer .cards-container .card .card-title{
+                        color:#333;
+                        font-size: 20px;
+                    }
+                    #welcomeContainer .cards-container .card .card-text{
+                        color:grey;
+                        font-size: 14px;
+                    }
+
+        #welcomeContainer .benefits-box{
+            background-color: rgb(246, 249, 254)
+        }
+            #welcomeContainer .benefits-box .title-text{
+                font-weight: 400;
+                color: #333;
+                font-size: 40px;
+            }
+            #welcomeContainer .benefits-box .benefit-card{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 30px 0px;
+            }
+                #welcomeContainer .benefits-box .benefit-icon{
+                    background-color: white;
+                    padding:10px;
+                    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+                }
+                #welcomeContainer .benefits-box .benefit-text{
+                    text-align: left;
+                    margin-left: 100px;
+                }
+                    #welcomeContainer .benefits-box .description-text{
+                        margin: 0px;
+                        font-weight: 400;
+                        color: grey;
+                        font-size: 17px;
+                        line-height: 20px;
+                    }
+        #welcomeContainer .contact-box{
+            background-color: rgba(255, 255, 255, 1);
+        }
+            #welcomeContainer .contact-box .title-text{
+                font-weight: 400;
+                color: #333;
+                font-size: 40px;
+            }
+            #welcomeContainer .contact-box .description-text{
+                font-weight: 400;
+                color: grey;
+                font-size: 21px;
+                line-height: 22px;
+            }
+            #welcomeContainer .contact-box .input input{
+                width: 100%;
+                height: 50px;
+                border:1px solid gray;
+                border-radius: 5px;
+                padding: 10px 20px;
+                margin: 10px 0px;
+            }
+
+#welcomeContainer .footer-container{
+    background-color: rgb(246, 249, 254);
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: row;
+}
+    #welcomeContainer .footer-container .col{
+        flex: 1;
+        text-align: center;
+        align-self: center;
+    }
+
+#welcomeContainer #register{
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    background-color: transparent;
+    /*width: 100%;*/
+}
+
+#welcomeContainer #register .content-container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+    overflow:hidden;
+}
+#welcomeContainer #register .content-container .content{
+    overflow-y: auto;
+    max-height: 500px;
+    margin: 20px 5px 20px 20px;
+    padding-right: 10px;
+}
+    #welcomeContainer #register .title{
+        color:#333;
+        font-size: 26px;
+    }
+    #welcomeContainer #register .description{
+        color:grey;
+        font-size: 16px;
+    }
+    #welcomeContainer #register .register-form{
+        color:grey;
+        font-size: 16px;
+    }
+    #welcomeContainer #register .register-form label{
+        color: #333;
+    }
+    #welcomeContainer #register .register-form input:not([type="checkbox"]), #welcomeContainer #register .register-form select{
+        width: 100%;
+        height: 50px;
+        margin: 8px 0px;
+    }
+    #welcomeContainer #register .register-form .checkbox-container{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0px;
+    }
+        #welcomeContainer #register .register-form input[type="checkbox"]{
+            width: 20px;
+            height: 20px;
+            margin: 0px 0px;
+        }
+        #welcomeContainer #register .register-form .tyc-text{
+            color: #333;
+            font-size: 14px;
+            margin:0px 0px 0px 20px;
+        }
+
+.login-form input{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px;
+}

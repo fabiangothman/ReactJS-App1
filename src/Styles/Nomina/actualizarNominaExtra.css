@@ -1,0 +1,41 @@
+#actualizar_nomina_extra{
+    margin:40px 40px;
+}
+#actualizar_nomina_extra .header-container{
+    margin-bottom: 20px;
+}
+#actualizar_nomina_extra .body{
+    background-color: white;
+    padding: 20px 20px;
+}
+    #actualizar_nomina_extra .body .description-text{
+        margin-bottom: 40px;
+    }
+        #actualizar_nomina_extra .body .btn-save, #actualizar_nomina_extra .body .btn-back{
+            margin-bottom: 20px;
+            margin-right: 10px;
+        }
+
+#actualizar_nomina_extra .body #nominaextra-list{
+    margin:0px;
+}
+    #actualizar_nomina_extra #nominaextra-list th{
+        vertical-align: middle;
+        text-align: center;
+    }
+    #actualizar_nomina_extra #nominaextra-list td{
+        overflow: hidden;
+        min-height: 25px;
+        vertical-align: middle;
+    }
+    #actualizar_nomina_extra #nominaextra-list td input[type="text"], #actualizar_nomina_extra #nominaextra-list td input[type="email"], #actualizar_nomina_extra #nominaextra-list td input[type="number"]{
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+#actualizar_nomina_extra .link{
+    color: #0d6efd;
+    text-decoration: underline;
+    cursor: pointer;
+}

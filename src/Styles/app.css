@@ -1,0 +1,30 @@
+.App {
+  background-color: #f4faff;
+}
+.spinner-container{
+  display: flex;
+}
+  .spinner-container .spinner{
+    margin: 0px auto;
+  }
+
+
+/*General*/
+.spacer-vertical-1{margin:1px 0px;}.spacer-vertical-2{margin:2px 0px;}.spacer-vertical-3{margin:3px 0px;}.spacer-vertical-4{margin:4px 0px;}.spacer-vertical-5{margin:5px 0px;}
+.spacer-vertical-10{margin:10px 0px;}.spacer-vertical-20{margin:20px 0px;}.spacer-vertical-30{margin:30px 0px;}.spacer-vertical-40{margin:40px 0px;}.spacer-vertical-50{margin:50px 0px;}
+.spacer-vertical-100{margin:100px 0px;}.spacer-vertical-200{margin:200px 0px;}.spacer-vertical-300{margin:300px 0px;}.spacer-vertical-400{margin:400px 0px;}.spacer-vertical-500{margin:500px 0px;}
+
+/*General*/
+input[type="submit"]{
+  background-color: #343BA7;
+  color: white;
+  border:0;
+}
+input[type="submit"]:hover{
+  background-color: #4249B5;
+}
+.hipervinculo{
+  color: #343BA7;
+  text-decoration: underline;
+  cursor: pointer;
+}

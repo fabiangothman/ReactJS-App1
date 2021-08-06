@@ -1,0 +1,45 @@
+#nomina{
+    margin:40px 40px;
+}
+#nomina .header-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+    #nomina .header-container .col-right .btn{
+        margin:5px 10px;
+    }
+#nomina .body{
+    background-color: white;
+    padding: 20px 0px;
+}
+    #nomina .body .table-header{
+        margin: 20px 20px;
+    }
+    #nomina .body .line{
+        margin:0px;
+        background-color: gray;
+    }
+    #nomina .body .table-header .options-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+        #nomina .body .table-header .options-container .seach-container{
+            display: flex;
+            flex-direction: row;
+        }
+
+    #nomina .table-area{
+        margin: 20px 20px;
+    }
+        #nomina .loader{
+            text-align: center;
+        }
+    #nomina .body .table-content{
+        overflow-x: auto;
+        margin: 20px 0px;
+    }

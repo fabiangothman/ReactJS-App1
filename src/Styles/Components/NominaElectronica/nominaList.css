@@ -1,0 +1,14 @@
+#nomina-list{
+    border-width: 1px;
+}
+#nomina-list thead{
+    text-align: center;
+    border-width: 2px;
+}
+#nomina-list thead tr th{
+    text-align: center;
+    vertical-align: middle;
+}
+#nomina-list td{
+    vertical-align: middle;
+}

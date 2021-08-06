@@ -1,0 +1,23 @@
+#nomina-list .btn-delete-masivo{
+    margin-bottom: 30px;
+}
+#nomina-list .table-nomina{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+#nomina-list .table-header-row{
+    vertical-align: middle;
+    text-align: left;
+}
+#nomina-list .table-body-row{
+    vertical-align: middle;
+}
+    #nomina-list .buttons-area{
+        /*width: 104px;*/
+        text-align: right;
+    }
+#nomina-list .td .buttons-container{
+    margin: 0px;
+}
+    #nomina-list .td .buttons-container .btn{
+        margin: 0px 3px;
+    }
