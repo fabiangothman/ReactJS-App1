@@ -1,5 +1,5 @@
-# Welcome to Planeo WorkForce v2!
-This is a new version of Planeo WorkForce
+# Welcome to a new ReactJS App!
+This is a new version of an old application
 
 ## Build
 ### Before starting
@@ -29,7 +29,7 @@ The next commands are needed if you want to test your app
 ## CORS
 Because of CORS restrictions there is a file "cors.json" on the root project.
 It was necessary to set some policys to the storages buckets:
-- gsutil cors set cors.json gs://planeo-workforce-dev.appspot.com
+- gsutil cors set cors.json gs://planxxx-workxxx-dev.appspot.com
 
 ## Firebase
 Remember you need first select a firebase project before continue
